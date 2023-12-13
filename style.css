@@ -1,13 +1,35 @@
 body{
-    background-color: hsl(30, 38%, 92%);
+    background-color:#f0f0f0 ;
     width: 100vw;
     height: 100vh;
+    font-family: monospace;
+}
+*{
+    box-sizing: border-box;
 }
 main{
-    display: flex;
-    width: 45rem;
-    height: 30rem;
-    background-color: black;
-    margin: 12rem 3rem 6rem 9rem;
-    padding:5rem ;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+    height: 50rem;
+    background-color:#f4ebe4;
+    margin:auto;
+}
+.section-one{
+    width: 20rem;
+    height:30rem ;
+    
+}
+.section-one img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+.section-two{
+    background-color:#ffffff ;
+width: 20rem;
+height: 30rem;
+padding: 2rem;
+border-radius: 0 5px 5px 0;
 }
